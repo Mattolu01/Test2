@@ -1,5 +1,6 @@
 body {
-    background-color: white;
+    background-color: hsl(47, 88%, 63%);
+    font-family: 'ariel', ;
 
 }
 
@@ -14,12 +15,14 @@ body {
 .container {
     border: 2px solid black;
     border-radius: 10px;
+    background-color: white;
 
     width: 300px;
     margin top: 50%;
     margin-left: 40%;
     margin-top: 5%;
-    height: 2%;
+    /* height: 4%; */
+    padding-bottom: 100px;
 
 
     padding-left: 25px;
@@ -37,7 +40,9 @@ body {
     padding-top: 20px
 }
 
-.Img2 {}
+.Img2 {
+    /* padding-left: 40%; */
+}
 
 .Learn {
     /* border: 0px solid black; */
@@ -49,5 +54,8 @@ body {
 }
 
 strong {
-    align-content: top;
+    /* align-content: center; */
+    text-align: justify;
+    padding-left: 40%;
+    transform: translateY(100%);
 }
