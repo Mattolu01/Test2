@@ -26,6 +26,7 @@ body {
 
 
 .Learn {
+    text-align: center;
     border-radius: 5px;
     border-color: hsl(47, 88%, 63%);
     padding: 8px;
